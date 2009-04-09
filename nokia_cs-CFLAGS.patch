@@ -1,0 +1,11 @@
+--- ../d211_2_6/src/Makefile	2004-07-22 21:54:48.000000000 +0000
++++ ../d211_2_6/src/Makefile	2009-04-09 15:15:55.000000000 +0000
+@@ -9,7 +9,7 @@
+ 
+ INCDIRS  = -I../include -I.
+ 
+-CFLAGS = -Wstrict-prototypes -fomit-frame-pointer -pipe -DKBUILD_MODNAME="nokia_cs"
++#CFLAGS = -Wstrict-prototypes -fomit-frame-pointer -pipe -DKBUILD_MODNAME="nokia_cs"
+ #-Wno-cast-qual -Wno-strict-prototypes
+ all: modules
+ 
